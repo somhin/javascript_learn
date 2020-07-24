@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&family=Roboto&display=swap");
+/* font template */
+/* 
+font-family: 'Chonburi', cursive;
+font-family: 'Roboto', sans-serif; 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+  color: floralwhite;
+  margin: 0 50px;
+  margin-top: 10px;
+}
+
+.navbar-toggler {
+  color: floralwhite !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler .fa {
+  color: floralwhite;
+  font-size: 26px;
+}
+
+.nav-link:hover {
+  font-weight: 600;
+  border-bottom: 1px solid floralwhite;
+  margin-bottom: -1px;
+}
+
+.jumbotron {
+  background-image: url("../img/bg.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  color: floralwhite;
+  border-radius: 0px !important;
+}
+
+.jumbotron h1 {
+  /* margin: 30px 0; */
+  font-family: "Chonburi", cursive;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.intro {
+  padding-top: 160px;
+}
+
+#header .btn {
+  border: 1px solid floralwhite;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .navbar-nav a {
+    margin: 0px 5px 0 17px;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
