@@ -2,17 +2,17 @@ export default {
     products: [
         {
         _id: '001',
-        image: './images/v1.jpg',
+        image: '/images/v1.jpg',
         category: 'Korea',
         name: 'Vivid',
         artist: 'ADOY',
         price: 60,
         rating: 4.5,
-        numReview: 10
+        numReview: 10,
     },
     {
         _id: '002',
-        image: './images/v2.jpg',
+        image: '/images/v2.jpg',
         category: 'Korea',
         name: 'Catnip',
         artist: 'ADOY',
@@ -22,7 +22,7 @@ export default {
     },
     {
         _id: '003',
-        image: './images/v3.jpg',
+        image: '/images/v3.jpg',
         category: 'international',
         name: 'Oncle Jazz',
         artist: 'Men I Trust',
@@ -32,7 +32,7 @@ export default {
     },
     {
         _id: '004',
-        image: './images/v4.jpg',
+        image: '/images/v4.jpg',
         category: 'international',
         name: 'Forever Live Sessions',
         artist: 'Men I Trust',
@@ -42,7 +42,7 @@ export default {
     },
     {
         _id: '005',
-        image: './images/v5.jpg',
+        image: '/images/v5.jpg',
         category: 'japan',
         name: 'Dance To You',
         artist: 'Sunny Day Service',
@@ -52,7 +52,7 @@ export default {
     },
     {
         _id: '006',
-        image: './images/v6.jpg',
+        image: '/images/v6.jpg',
         category: 'taiwan',
         name: '浴室',
         artist: 'deca joins',
