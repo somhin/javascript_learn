@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinylly shop</title>
+    <link rel="stylesheet" href="./styles.css
+    ">
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button onclick="openMenu()">
+                    &#9776
+                </button>
+                <a href="./index.html">
+                vinylly shop
+                </a>
+            </div>
+
+            <div class="header-links">
+                <a href="Cart.html">
+                    Cart
+                </a>
+                <a href="Sign-in.html">
+                    Sign-in
+                </a>
+            </div>
+
+        </header>
+        <aside class="sidebar">
+            <h3>Categories</h3>
+            <button onclick="closeMenu()" class="sidebar-close-button">X</button>
+            <ul>
+                <li>
+                    <a href="">
+                        International
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        Korea
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        Japan
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        Taiwan
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="main">
+        <div class="content">
+            <ul class="products">
+                <li>
+                    <div class="product">
+                        <img src="./images/v1.jpg" alt="vinyl1" class="product-image">
+                        <div class="product-album">
+                            <a href="product.html">Vivid</a>
+                        </div>
+                        <div class="product-artist">ADOY</div>
+                        <div class="product-price">$15</div>
+                        <div class="product-rating">4.5 Stars (10 reviews)</div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product">
+                        <img src="./images/v1.jpg" alt="vinyl1" class="product-image">
+                        <div class="product-album">
+                            <a href="product.html">Vivid</a>
+                        </div>
+                        <div class="product-artist">ADOY</div>
+                        <div class="product-price">$15</div>
+                        <div class="product-rating">4.5 Stars (10 reviews)</div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product">
+                        <img src="./images/v1.jpg" alt="vinyl1" class="product-image">
+                        <div class="product-album">
+                            <a href="product.html">Vivid</a>
+                        </div>
+                        <div class="product-artist">ADOY</div>
+                        <div class="product-price">$15</div>
+                        <div class="product-rating">4.5 Stars (10 reviews)</div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product">
+                        <img src="./images/v1.jpg" alt="vinyl1" class="product-image">
+                        <div class="product-album">
+                            <a href="product.html">Vivid</a>
+                        </div>
+                        <div class="product-artist">ADOY</div>
+                        <div class="product-price">$15</div>
+                        <div class="product-rating">4.5 Stars (10 reviews)</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </main>
+
+        <footer class="footer">
+            eCommerce practice project by Phipat Limprasutr
+        </footer>
+    </div>
+
+    <script>
+        function openMenu(){
+            document.querySelector(".sidebar").classList.add("open")
+        }
+
+        function closeMenu(){
+            document.querySelector(".sidebar").classList.remove("open")
+        }
+    </script>
+</body>
+</html>
