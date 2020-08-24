@@ -6,6 +6,10 @@ function ProductScreen (props) {
 
     const product = data.products.find(x => x._id === props.match.params.id);
 
+    const trackListing =  product.tracklist.map(track =>
+        <li>{track}</li>
+    );
+
     return <div>
                 <div className="back-to-result">
                     <Link to="/">Back to result...</Link>
@@ -21,10 +25,18 @@ function ProductScreen (props) {
                                 <h1>{product.name}</h1>
                             </li>
                             <li>
+                                {product.artist}
+                            </li>
+                            <li>
                                 {product.rating} stars ({product.numReview} reviews)
                             </li>
                             <li>
                                 <b>Price: ${product.price}</b>
+                            </li>
+                            <li>
+                                Tracklist: <ol>
+                                    {trackListing}
+                                </ol>
                             </li>
                         </ul>
                     </div>

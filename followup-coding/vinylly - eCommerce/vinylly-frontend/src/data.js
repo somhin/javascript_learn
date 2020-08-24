@@ -9,6 +9,9 @@ export default {
         price: 60,
         rating: 4.5,
         numReview: 10,
+        tracklist: [
+            "Lemon", "Porter", "Pool", "Someday", "Domino", "Swim", "Ever", "Ugly", "Moondance", "Away"
+        ]
     },
     {
         _id: '002',
