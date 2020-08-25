@@ -7,7 +7,7 @@ function ProductScreen (props) {
     const product = data.products.find(x => x._id === props.match.params.id);
 
     const trackListing =  product.tracklist.map(track =>
-        <li>{track}</li>
+        <li key={track}>{track}</li>
     );
 
     return <div>

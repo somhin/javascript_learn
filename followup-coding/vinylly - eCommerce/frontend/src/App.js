@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom'
 import './App.css';
-import HomeScreen from './Screens/HomeScreen';
-import ProductScreen from './Screens/ProductScreen';
+import HomeScreen from './screens/HomeScreen';
+import ProductScreen from './screens/ProductScreen';
 
 function App() {
 
@@ -40,25 +40,25 @@ function App() {
             <button onClick={closeMenu} className="sidebar-close-button">X</button>
             <ul>
                 <li>
-                    <a href="">
+                    <a href="/">
                         International
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="/">
                         Korea
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="/">
                         Japan
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="/">
                         Taiwan
                     </a>
                 </li>
