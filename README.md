@@ -1,3 +1,3 @@
-# javascript_projects
+# coding-playground
 
-Repository for javascript projects both follow-up project and my own creation
+Repository for javascript projects both follow-up project, practice, and my own creation
